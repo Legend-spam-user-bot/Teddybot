@@ -230,7 +230,7 @@ pbot = Client("TeddyPyro", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 aiohttpsession = ClientSession()
 # ARQ Client
 arq = ARQ("https://thearq.tech", "YIECCC-NAJARO-OLLREW-SJSRIP-ARQ", aiohttpsession)
-ubot = TelegramClient(StringSession(BQBiaIY1ynsmF01S0fqZM2XmTRPUO05nkM0-oZUk-jYbyiTcpk6nNg02rw8O7QVAiZrPOG3UNXjO_xRCmQjWBUf94k9CEBhGG0WrKWctD0NiX54YlLJOuzzcyFsHM3XgjjI2WV_whgt3ktSOkEtBy7tGBJE0mWl2y1j59fMSUTtS16mbaaUqNr3ndr28CAAy9-FoQyhCL9Cz9AqLNhZX69IQ3WHSGXw22kz5a9hTv-MgwcjDccXQFfN1LsmynM7dvX5mcEcBH9eBF968FGxVDB1vWenEAXLGz8h4e26hRznoOdPP2bc45jSB-ltSE4S5WaVP0Qq1sgQvZ9kywgYCdiHgAAAAASqajjYA), 18945189, b04fd5fec09b4b7f237676330e4bb966)
+ubot = TelegramClient(StringSession(STRING_SESSION), APP_ID, APP_HASH)
 dispatcher = updater.dispatcher
 loop = asyncio.get_event_loop()
 
