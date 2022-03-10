@@ -225,8 +225,8 @@ else:
         LOGGER.warning("Can't connect to SpamWatch!")
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
-telethn = TelegramClient("HottieRobot", API_ID, API_HASH)
-pbot = Client("HottiePyro", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
+telethn = TelegramClient("TeddyRobot", API_ID, API_HASH)
+pbot = Client("TeddyPyro", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 aiohttpsession = ClientSession()
 # ARQ Client
 arq = ARQ("https://thearq.tech", "YIECCC-NAJARO-OLLREW-SJSRIP-ARQ", aiohttpsession)
@@ -241,7 +241,7 @@ DEMONS = list(DEMONS)
 TIGERS = list(TIGERS)
 
 # Load at end to ensure all prev variables have been set
-from Hottie_Robot.modules.helper_funcs.handlers import (
+from Teddybot.modules.helper_funcs.handlers import (
     CustomCommandHandler,
     CustomMessageHandler,
     CustomRegexHandler,
