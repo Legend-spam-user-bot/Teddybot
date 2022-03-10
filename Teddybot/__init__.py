@@ -15,7 +15,7 @@ from redis import StrictRedis
 from telethon import TelegramClient
 from telethon.sessions import StringSession
 
-from Teddybot.utils.logger import log
+
 
 StartTime = time.time()
 
